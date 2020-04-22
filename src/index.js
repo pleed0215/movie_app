@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Potato from "./Potato";
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Potato fav="hello" mylist={["hello", 1, 2, 3]} />
   </React.StrictMode>,
   document.getElementById('root')
 );
