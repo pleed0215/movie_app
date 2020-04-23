@@ -1,0 +1,23 @@
+
+.movie {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+  color: #282c34;
+    
+}
+.movie_title {
+  font-size: 15px;  
+} 
+
+.movie_genre {
+    color: grey;
+    font-size: 10px;
+}
+
+.movie_summary {
+    font-size: 8px;
+}
