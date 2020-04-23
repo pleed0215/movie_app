@@ -29,6 +29,8 @@
 }
 
 .movie__container {
+  justify-self: center;
+  align-self: center;
   background-color: #282c34;
   display: grid;
   width: 70%;
@@ -37,7 +39,7 @@
   grid-gap: 20px 30px;
   font-size: calc(10px + 2vmin);
   align-items: center;
-  justify-content: center;;
+  justify-content: center;
   color: white;
 }
 
